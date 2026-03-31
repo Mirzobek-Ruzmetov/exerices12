@@ -1,17 +1,15 @@
-let ism = "Mirzobek";
-let yosh = 16;
+const x = 2;       // Allowed
 
-console.log("Salom " + ism);
-console.log("Yosh: " + yosh);
-
-let a = 5;
-let b = 3;
-
-let yigindi = a + b;
-console.log("Yig'indi: " + yigindi);
-
-function salom() {
-  console.log("Xush kelibsiz!");
+{
+  const x = 3;   // Allowed
 }
 
-salom();
+{
+  const x = 4;   // Allowed
+}
+
+carName = "Volvo";
+var carName;
+
+alert (carName);
+const carName = "Volvo";
