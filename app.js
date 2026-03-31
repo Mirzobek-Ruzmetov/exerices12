@@ -1,23 +1,23 @@
-const appName = "My App";
-console.log("Ilovaga xush kelibsiz!");
+let x = 10;
 
-let userName = "Ali";
-let age = 16;
+// Assign the value 5 to x
+let x = 5;
+// Assign the value 2 to y
+let y = 2;
+// Assign the value x + y to z:
+let z = x + y;
 
-console.log("Salom, " + userName);
-console.log("Yoshingiz: " + age);
+let x = 5;
+let y = 2;
+let z = x + y;
 
-let num1 = 10;
-let num2 = 5;
+let x = 5;
+let y = 2;
+let z = x * y;
 
-let sum = num1 + num2;
-let difference = num1 - num2;
-let product = num1 * num2;
-let division = num1 / num2;
+let a = 3;
+let x = (100 + 50) * a;
 
-console.log("Yig'indi: " + sum);
-console.log("Ayirma: " + difference);
-console.log("Ko'paytma: " + product);
-console.log("Bo'lish: " + division);
-
-console.log("Dastur tugadi.");
+let text1 = "John";
+let text2 = "Doe";
+let text3 = text1 + " " + text2;
